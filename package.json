@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "roadhog server",
+    "build": "roadhog build",
+    "lint": "eslint --ext .js src test",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+   
+    "connect-history-api-fallback": "^1.6.0",
+    "dva": "^2.4.1",
+    "express": "^4.17.1",
+    "html": "^1.0.0",
+   
+    "path": "^0.12.7"
+    
+  },
+  "devDependencies": {
+  }
+}
